@@ -1,3 +1,4 @@
+import 'package:auth/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:geolocator/geolocator.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const LocationApp(),
+      home: SplashScreen(),//const  LocationApp(),
       theme: ThemeData(scaffoldBackgroundColor: Color(0xFFF2F2F2)),
     );
   }
